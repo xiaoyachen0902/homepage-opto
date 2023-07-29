@@ -1339,7 +1339,7 @@ section {
   position: relative;
   width: 45%;
   padding: 10px 30px;
-  border-radius: 4px;
+  border-radius: 20px;
   background: #f5f5f5;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
@@ -1423,10 +1423,12 @@ blockquote {
 }
 
 .date {
-  background: #FF4081;
+  background:transparent;
   display: inline-block;
-  color: #FFFFFF;
+  color: #FF4081;
   padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
   position: absolute;
   top: 0;
   right: 0;
